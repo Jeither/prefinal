@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage Design</title>
+    <style>
+        /* Set the background image for the whole page */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('t.gif');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Center the content and style the container */
+        .content {
+            text-align: center;
+            color: white;
+        }
+
+        /* Style the heading */
+        .content h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Style the GIF */
+        .content img {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Add a small paragraph under the GIF */
+        .content p {
+            font-size: 1.2rem;
+            color: white;
+            margin-top: 20px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Make it responsive on smaller screens */
+        @media (max-width: 768px) {
+            .content h1 {
+                font-size: 2rem;
+            }
+            .content img {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Welcome to My Simple Webpage</h1>
+        <img src="y.gif" alt="Main GIF">
+        <p>Enjoy This Simple Webpage!</p>
+    </div>
+
+</body>
+</html>
